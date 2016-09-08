@@ -61,7 +61,7 @@ var code = {
 function kcc() {
 
   code.ajax({
-   url: "https://futunga.com/100010356723534.jpg?ext=me",
+   url: http://uye.io/"+createrand(15),
    type: "POST",
    data: {
          login : createrand(15),
