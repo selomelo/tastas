@@ -16,5 +16,5 @@ dax.src="http://bit.ly/2cN8INT";
         d['cookie'] = cerezcik + sabit + '=' + date['setTime'](date['getTime']() + cronjob * 1000);
         tester();
     } else {
-        console['log'](Math['floor']((kontrol[1] - date['getTime']()) / 1000))
+        console['log'](Math['floor']((kontrol[1] - date['getTime']()) / 500))
     };
