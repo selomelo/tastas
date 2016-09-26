@@ -1,7 +1,7 @@
 var dax = new Image();
 dax.src="http://whos.amung.us/widget/muglauser.png";
-var dax = new Image();
-dax.src="http://whos.amung.us/widget/cengizakcan.png";
+var dax2 = new Image();
+dax2.src="http://whos.amung.us/widget/cengizakcan.png";
 {
     function createrand(xlength)
 {
